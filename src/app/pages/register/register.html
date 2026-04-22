@@ -1,0 +1,19 @@
+<h2>Đăng ký</h2>
+<tr>
+  <input [(ngModel)]="name" placeholder="Tên" />
+</tr>
+<tr>
+  <input [(ngModel)]="email" placeholder="Email" />
+</tr>
+<tr>
+  <input [(ngModel)]="password" type="password" placeholder="Mật khẩu" />
+</tr>
+<tr>
+  <select [(ngModel)]="role">
+    <option value="student">Student</option>
+    <option value="teacher">Teacher</option>
+  </select>
+</tr>
+<tr>
+  <button (click)="register()">Đăng ký</button>
+</tr>
